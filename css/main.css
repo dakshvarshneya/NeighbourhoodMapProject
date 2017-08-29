@@ -1,0 +1,68 @@
+html,
+body{
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+.map {
+    height: 100%;
+	width: 100%;
+	position: absolute;
+    padding: 0;
+    margin: 0;
+	top: 0;
+	z-index: 1;
+	left: 0;
+}
+
+.search {
+	font-size: 1.2em;
+	padding: 15px 25px;
+}
+
+.sidebar {
+	max-height: 100%;
+	max-width: 30%;
+	font-size: 1em;
+	position: absolute;
+	background-color: #FCF3E8;
+	overflow: auto;
+	opacity: 0.9;
+	left: 1%;
+	top: 2%;
+	z-index: 2;
+}
+
+.locations {
+	margin: 3px;
+	padding: 2px;
+}
+
+.location-content {
+	margin: 0;
+	padding: 12px;
+	border: solid orange 1px;
+	background-color: #FCF3E8;
+	text-align: center;
+}
+
+.location-content:hover {
+	color: white;
+	background-color:gray;
+}
+
+@media (max-width:780px){
+	.search-area,
+	.search-input {
+		width: 100%;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+	.map{
+		margin-top: 50px;
+	}
+
+	.locations {
+		margin: 0;
+	}
+
+}
