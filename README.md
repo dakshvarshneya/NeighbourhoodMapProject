@@ -15,7 +15,8 @@ You will learn how design patterns assist in developing a manageable codebase. Y
 * Asynchronous programming is important to understand in today's market
 
 ## Setup
-Open index.html in your browser, make sure you have an active internet connection.<br>
+* Clone this repository.
+* Open index.html in your browser, make sure you have an active internet connection.<br>
 
 
 ## Libraries, frameworks and APIs used
