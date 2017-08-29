@@ -35,3 +35,7 @@ You will learn how design patterns assist in developing a manageable codebase. Y
 
 ## Motivation
 * Udacity's course content
+
+## LICENSE
+
+The content of this program is licensed under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Common Attribution</a>
