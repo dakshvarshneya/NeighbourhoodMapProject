@@ -48,7 +48,7 @@ function Location(loc)
 	{
 		var wiki = [];
 		// Url for wikipedia api
-		var Url = 'http://en.wikipedia.org/w/api.php?action=opensearch&search=' + self.title + '&format=json&callback=wikiCallback';
+		var Url = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + self.title + '&format=json&callback=wikiCallback';
 
 		$.getJSON({url: Url,
 			dataType: "jsonp",}).done(function(response)
